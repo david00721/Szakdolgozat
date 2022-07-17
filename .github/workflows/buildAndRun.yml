@@ -1,7 +1,6 @@
-name: Build and Run workflow
+name: Build and run workflow
 
-on:
-  push
+on: [push]
 
 jobs:
   build_and_test:
